@@ -1,3 +1,35 @@
 * {
     font-family: 'Noto Serif', serif !important;
 }
+
+.navbar {
+    background-color: rgb(194, 167, 132) !important;
+}
+
+.nav-item:hover {
+    background-color: rgb(219, 217, 209);
+}
+
+.card {
+    background-color: rgb(219, 217, 209);
+    transition: all .5s cubic-bezier(0.72, 0.36, 0.72, 0.38)
+}
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn {
+    background-color: rgb(194, 167, 132);
+    border: 0;
+}
+
+.btn:hover {
+    background-color: rgb(194, 167, 132);
+    border: 0;
+}
+
+.bi {
+    font-size: 50px
+}
