@@ -14,6 +14,12 @@
     background-color: rgb(219, 217, 209);
     transition: all .5s cubic-bezier(0.72, 0.36, 0.72, 0.38)
 }
+#sobre-mi,#preguntas-frecuentes {
+    background-color: rgb(219, 217, 209);
+    border-radius: 5px;
+}
+
+
 
 .card:hover {
     transform: scale(1.1);
